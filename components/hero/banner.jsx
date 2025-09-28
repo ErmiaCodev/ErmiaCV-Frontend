@@ -8,9 +8,9 @@ export default function HeroBanner({ title, caption, linkTxt, badge }) {
                 <a href="" className="inline-flex text-purple-800 bg-purple-200 font-medium text-sm py-1 px-3 rounded-full mb-4 "> {badge} </a>
                 <h1 className="text-2xl lg:text-3xl font-bold">{title}</h1>
                 <p className="lg:py-6 lg:text-xl text-slate-700 dark:text-slate-300">{caption}</p>
-                <h3 className="text-primary lg:text-lg hover:underline cursor-pointer">
+                <p className="text-primary lg:text-lg hover:underline cursor-pointer">
                     {linkTxt}
-                </h3>
+                </p>
             </div>
         </div>
     )
