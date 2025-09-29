@@ -16,10 +16,10 @@ export default function Navbar({ lang }) {
     }
 
     return (
-        <header className="bg-base-100 dark:bg-gray-700 shadow-sm sticky top-0 left-p right-0">
+        <header className="bg-base-100 dark:bg-gray-700 shadow-sm sticky top-0 left-p right-0 z-20">
             <div className="navbar container mx-auto">
                 <div className="navbar-start">
-                    <div className="dropdown">
+                    <div className="dropdown z-20">
                         <div aria-label="burgur menu" tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
                         </div>
