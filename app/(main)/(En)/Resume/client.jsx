@@ -30,17 +30,17 @@ export default function ResumeClient() {
     return (
         <>
             <section className="flex flex-col w-full lg:w-1/3">
-                <div className="grid grid-cols-2 lg:grid-cols-1 gap-2 lg:gap-4">
-                    <Link className="btn btn-primary rounded-xl " href="#bio">
+                <div className="grid grid-cols-2 lg:grid-cols-1 gap-2 lg:gap-3">
+                    <Link className="btn btn-primary rounded-xl" href="#bio">
                         Biography
                     </Link>
-                    <Link className="btn btn-primary rounded-xl " href="#skills">
+                    <Link className="btn btn-primary rounded-xl" href="#skills">
                         Skills
                     </Link>
-                    <Link className="btn btn-primary rounded-xl " href="#education">
+                    <Link className="btn btn-primary rounded-xl" href="#education">
                         Education
                     </Link>
-                    <Link className="btn btn-primary rounded-xl " href="#expriences">
+                    <Link className="btn btn-primary rounded-xl" href="#expriences">
                         Expriences
                     </Link>
                 </div>

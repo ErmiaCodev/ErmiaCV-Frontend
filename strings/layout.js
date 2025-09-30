@@ -15,6 +15,7 @@ const LayoutStr = {
             brand: "Ermia Codev",
             navLinks: [
                 { name: "Home", url: "/" },
+                { name: "Blog", url: "/Blog" },
                 { name: "Resume", url: "/Resume" },
                 { name: "Contact", url: "/" },
             ]
