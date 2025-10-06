@@ -6,7 +6,7 @@ export default function BlogClient({ data }) {
             <h1 className="text-center font-bold text-3xl">
                 ErmiaCodev's Blog | Posts
             </h1>
-            <section className="mt-12 w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols04">
+            <section className="mt-12 w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                 {
                     data.map((post, i) => (
                         <PostCard key={i} post={post} />
