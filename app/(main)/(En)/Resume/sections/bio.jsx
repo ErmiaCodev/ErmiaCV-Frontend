@@ -9,10 +9,12 @@ export default function BioSection({ _ref }) {
                     <img className="pt-3 sm:pt-0 max-w-32 aspect-square h-auto rounded-full object-cover" src="/assets/Ermia-Moghadamy.png" alt="Ermia Moghadamy" />
                 </div>
                 <div className="grow">
-                    <h1 className="py-4 text-xl lg:text-2xl font-bold">Ermia Moghadami</h1>
+                    <h1 className="py-4 text-xl lg:text-2xl font-bold">Ermia Moghadamy</h1>
                     <p className="lg:text-xl">
-                        I'm Ermia Moghadami (Ermia Codev), Programmer, Fullstack Developer, DevOps, DataScientist, Official TVET Educator. <br />
-                        <strong className="text-rose-500 text-sm">I can't stop learning new things</strong>
+                        I'm Ermia Moghadamy (Ermia Codev), Programmer, Fullstack Developer, DevOps, DataScientist, Official TVET Instructor. <br />
+                        <strong className="text-rose-500 text-xs">
+                            Learning never ends
+                        </strong>
                     </p>
                 </div>
             </div>

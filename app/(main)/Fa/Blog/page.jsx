@@ -1,7 +1,7 @@
 import BlogClient from "./client"
 
 export const metadata = {
-    title: "Ermia Codev | Blog"
+    title: "ارمیا مقدمی | وبلاگ"
 }
 
 export default async function BlogPage() {
@@ -17,7 +17,7 @@ export default async function BlogPage() {
     }
 
     const body = await res.json()
-    const data = body.filter(e => e.lang == "en")
+    const data = body.filter(e => e.lang == "fa")
 
     return (
         <>
