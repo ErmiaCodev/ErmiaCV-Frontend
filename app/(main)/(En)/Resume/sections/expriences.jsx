@@ -1,9 +1,8 @@
-export default function ExpSection({ _ref }) {
+import ResumeSection from "./ResumeSection";
+
+export default function ExpSection() {
     return (
-        <section ref={_ref} id="expriences" className="my-4 card bg-base-100 dark:bg-gray-700 shadow-sm shrink-0 border-2 border-primary border-dashed">
-            <h3 className="pb-1 pt-3 lg:pt-5 text-center text-primary font-bold text-2xl lg:text-3xl">
-                Expriences
-            </h3>
+        <ResumeSection pk="expriences" title="Expereinces">
             <div className="px-4 pb-4 flex flex-col gap-6">
                 <div>
                     <p className="text-xl lg:text-xl font-bold">TVET Instructor</p>
@@ -80,6 +79,6 @@ export default function ExpSection({ _ref }) {
                     </div>
                 </div>
             </div>
-        </section>
+        </ResumeSection>
     )
 }

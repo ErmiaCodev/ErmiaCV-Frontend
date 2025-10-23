@@ -1,17 +1,16 @@
-export default function SkillsSection({ _ref }) {
+import ResumeSection from "./ResumeSection";
+
+export default function SkillsSection() {
     return (
-        <section ref={_ref} id="skills" className="my-4 card bg-base-100 dark:bg-gray-700 shadow-sm shrink-0 border-2 border-primary border-dashed">
-            <h2 className="pt-3 lg:pt-5 text-center text-primary font-bold text-2xl lg:text-3xl">
-                Skills
-            </h2>
+        <ResumeSection pk="skills" title="Skills">
             <div className="px-6 pb-6 grid grid-cols-2 lg:grid-cols-4 pt-4 gap-4 font-bold">
                 <div>Python</div>
                 <div>Numpy, Pandas</div>
                 <div>SciKitLearn</div>
                 <div>Data Analysis</div>
 
-                <div className="text-cyan-600">Go & Gin</div>
-                <div>Rust</div>
+                <div className="text-cyan-600">Go</div>
+                <div>C++</div>
                 <div>React Native</div>
                 <div>Dart, Flutter</div>
 
@@ -31,6 +30,6 @@ export default function SkillsSection({ _ref }) {
                 <div>Automation with ShellScript</div>
 
             </div>
-        </section>
+        </ResumeSection>
     )
 }

@@ -45,12 +45,12 @@ export default function ResumeClient() {
                     </Link>
                 </div>
             </section>
-            <section ref={contRef} className="grow max-h-[64vh] lg:max-h-[80vh] scroll-smooth overflow-y-scroll flex-col gap-12 lg:px-4 lg:py-2">
-                <BioSection _ref={bioRef} />
-                <SkillsSection _ref={skillsRef} />
-                <EduSection _ref={eduRef} />
-                <RewardsSection _ref={rewardsRef} />
-                <ExpSection _ref={expRef} />
+            <section className="grow max-h-[64vh] lg:max-h-[80vh] scroll-smooth overflow-y-scroll flex-col gap-12 lg:px-4 lg:py-2">
+                <BioSection />
+                <SkillsSection />
+                <EduSection />
+                <RewardsSection />
+                <ExpSection />
                 <AssetsSection />
             </section>
         </>

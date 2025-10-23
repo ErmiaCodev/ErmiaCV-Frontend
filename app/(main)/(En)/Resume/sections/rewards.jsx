@@ -1,9 +1,8 @@
-export default function RewardsSection({ _ref }) {
+import ResumeSection from "./ResumeSection";
+
+export default function RewardsSection() {
     return (
-        <section ref={_ref} id="education" className="my-4 card bg-base-100 dark:bg-gray-700 shadow-sm shrink-0 border-2 border-primary border-dashed">
-            <h3 className="pt-3 lg:pt-5 text-center text-primary font-bold text-2xl lg:text-3xl">
-                Rewards
-            </h3>
+        <ResumeSection pk="rewards" title="Rewards">
             <div className="px-6 pb-6 flex flex-row gap-6 items-center">
                 <div className="grow">
                     <p className="text-xl lg:text-xl font-bold">WorldSkills (Web Technologies)</p>
@@ -28,6 +27,6 @@ export default function RewardsSection({ _ref }) {
                     </p>
                 </div>
             </div>
-        </section>
+        </ResumeSection>
     )
 }
