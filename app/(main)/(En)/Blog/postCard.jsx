@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function PostCard({ post }) {
     return (
-        <div className="card bg-base-100 dark:bg-gray-700 w-96 shadow-sm">
+        <div className="card bg-base-100 dark:bg-gray-700 shadow-sm">
             <figure>
                 <img
                     className=" aspect-video object-cover object-top"

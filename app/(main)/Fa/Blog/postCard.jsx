@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function PostCard({ post }) {
     return (
-        <div className="card bg-base-100 dark:bg-gray-700 w-96 shadow-sm">
+        <div className="card bg-base-100 dark:bg-gray-700 shadow-sm">
             <figure>
                 <img
                     className=" aspect-video object-cover object-top"
@@ -12,8 +12,8 @@ export default function PostCard({ post }) {
             <div className="card-body">
                 <h2 className="card-title">{post.title ?? ""}</h2>
                 <div className="card-actions justify-end">
-                    <Link href={`/Fa/Blog/${post.slug}/`} className="btn btn-primary rounded-xl">
-                        مشاهده
+                    <Link href={`/Blog/${post.slug}/`} className="btn btn-primary rounded-xl">
+                        Open
                     </Link>
                 </div>
             </div>
